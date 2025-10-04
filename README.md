@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# 🌟 Sentient Goals - AI-Powered Goal Achievement Platform  
 
-## Project info
+> **Turn Your Dreams Into Daily Actions**  
+DreamPath is a full-stack web application that transforms abstract dreams into actionable, structured roadmaps using AI. The platform helps users break down their aspirations into manageable milestones with progress tracking, community support, and gamification.  
 
-**URL**: https://lovable.dev/projects/76984073-2787-4119-a5d2-675d4f910fb1
+---
 
-## How can I edit this code?
+## 🚀Core Features  
 
-There are several ways of editing your application.
+- **AI Roadmap Generation** - Transform dreams into 4-phase action plans.
+- **Dream Input** - Category selection with validation (50-500 chars). 
+- **Interactive Roadmap** - Visual progress tracking with checkboxes.  
+- **Modern UI** - Responsive design with animations
 
-**Use Lovable**
+## 🚀Technical Features
+- **Real-time** - Instant generation with live progress.
+- **Type Safe** - Full TypeScript + Zod validation.
+- **Mobile Ready** - Responsive across all devices.
+- **Error Handling** - Rate limits, API credits, graceful fallbacks.
+- **AI Integration.**
+- **Smart Generation** - Context-aware, category-specific roadmaps.
+- **Realistic Planning** - Timelines, skills, resources, success metrics.
+- **Value**: Turn dreams into concrete, actionable plans with AI assistance.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/76984073-2787-4119-a5d2-675d4f910fb1) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📂 Project Structure  
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+dream-path/
+├── frontend/               # React 18 + TypeScript + Vite
+│   ├── src/
+│   │   ├── components/     
+│   │   ├── pages/         
+│   │   ├── services/       
+│   │   ├── utils/          
+│   │   └── App.jsx
+│   └── tailwind.config.js
+├── backend/                # Supabase Edge Functions (Deno + TypeScript)
+│   ├── controllers/       
+│   ├── models/            
+│   ├── routes/            
+│   ├── middleware/        
+│   ├── services/        
+│   ├── config/           
+│   └── server.js
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack  
 
-**Use GitHub Codespaces**
+**Frontend**  
+- React 18 + TypeScript + Vite
+- Tailwind CSS + shadcn/ui + Radix UI 
+- TanStack Query + React Hook Form
+- React Router + Zod validation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Backend**  
+- Supabase Edge Functions (Deno + TypeScript)
+- PostgreSQL (via Supabase)
+- Lovable AI API + Google Gemini 2.5 Flash
 
-## What technologies are used for this project?
+**Deployment**  
+- Frontend → Vercel (Frontend) 
+- Supabase (Backend + Database)
+- Key Libraries
+- 40+ Radix UI components (buttons, forms, modals, etc.)
+- Lucide React (icons)
+- Sonner (notifications)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌍 Community  
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/76984073-2787-4119-a5d2-675d4f910fb1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Join our mission to help dreamers achieve their goals.  
+Start your journey today → **[Sentient-Goals](https://sentient-goals.vercel.app/)** 🚀  
