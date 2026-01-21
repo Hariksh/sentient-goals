@@ -1,18 +1,18 @@
-# 🌟 Sentient Goals - AI-Powered Goal Achievement Platform  
+# Sentient Goals - AI-Powered Goal Achievement Platform  
 
 > **Turn Your Dreams Into Daily Actions**  
 DreamPath is a full-stack web application that transforms abstract dreams into actionable, structured roadmaps using AI. The platform helps users break down their aspirations into manageable milestones with progress tracking, community support, and gamification.  
 
 ---
 
-## 🚀Core Features  
+## Core Features  
 
 - **AI Roadmap Generation** - Transform dreams into 4-phase action plans.
 - **Dream Input** - Category selection with validation (50-500 chars). 
 - **Interactive Roadmap** - Visual progress tracking with checkboxes.  
 - **Modern UI** - Responsive design with animations
 
-## 🚀Technical Features
+## Technical Features
 - **Real-time** - Instant generation with live progress.
 - **Type Safe** - Full TypeScript + Zod validation.
 - **Mobile Ready** - Responsive across all devices.
@@ -24,7 +24,7 @@ DreamPath is a full-stack web application that transforms abstract dreams into a
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 
 ```
 dream-path/
@@ -49,7 +49,7 @@ dream-path/
 
 ---
 
-## 🛠️ Tech Stack  
+##  Tech Stack  
 
 **Frontend**  
 - React 18 + TypeScript + Vite
@@ -72,7 +72,7 @@ dream-path/
 
 ---
 
-## 🌍 Community  
+## Community  
 
 Join our mission to help dreamers achieve their goals.  
 Start your journey today → **[Sentient-Goals](https://sentient-goals.vercel.app/)** 🚀  
