@@ -75,4 +75,4 @@ dream-path/
 ## Community  
 
 Join our mission to help dreamers achieve their goals.  
-Start your journey today → **[Sentient-Goals](https://sentient-goals.vercel.app/)** 🚀  
+Start your journey today → **[Sentient-Goals](https://sentient-goals.vercel.app/)** 
